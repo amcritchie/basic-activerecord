@@ -4,18 +4,16 @@ require "./lib/item"
 require "./lib/orderitem"
 require "./lib/order"
 
-p Customer.all
+# p Customer.all
 
-p ">"*20
-p Customer.first
+# p Customer.first
 
+# p Customer.last
 
-p ">"*20
+# p Customer.find(3)
 
+# p Customer.where(state: "Colorado")
 
+# p Customer.limit(5)
 
-p ">"*20
-
-
-
-p ">"*20
+p Customer.order(name: :asc)
